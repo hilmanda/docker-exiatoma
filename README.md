@@ -19,14 +19,16 @@
 This is an food-base memory tile game. The objective of this game is aims to hone one's memory by giving a game in the form of cards that are matched with pictures. The user must find a card with the same food picture and then click simultaneously so that the card is paired. The higher the level, the faster the time, so the user must play and analyze which images are the same. 
 Are you ready for this game? Let's complete the level and prove your skills!
 
-# How to Run Container
+# How to Run From Docker
 Clone this repository or download [here](https://github.com/hilmanda/docker-exiatoma/archive/refs/heads/main.zip). 
 
 ## Dependencies
 Download and Install x server (recommended VcXsrv) from [here](https://sourceforge.net/projects/vcxsrv/files/latest/download).
 
-Launch the x server from start menu.
-
+Launch the X Server from start menu.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/90018036/170707241-cb5753d5-302f-4c7e-be0b-fb24658d5bd5.png">
+</div>
 Go with all the default settings, however don't forget to check “Disable access control”.
 <div align="center">
   <img src="https://miro.medium.com/max/1400/1*ihco-ShEHQtbwHBGmtIOZg.png">
