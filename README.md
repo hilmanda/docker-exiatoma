@@ -29,16 +29,11 @@ choco install vcxsrv
 ```
 
 Launch the x server from start menu.
+
+Go with all the default settings, however don't forget to check “Disable access control”.
 <div align="center">
   <img src="https://miro.medium.com/max/1400/1*ihco-ShEHQtbwHBGmtIOZg.png">
 </div>
-## Execute docker container 
-Open the terminal on your PC, then make sure that the current directory is same as directory that you put this repository. To execute the container use command below:
-```
-docker run --rm -it -e DISPLAY=192.168.1.10:0.0 -v "/d/02-Project/pygame-docker:"/usr/project pygame-docker /bin/bash
-```
-NOTES!!
-You can see that double quote on above, that can be different depend on your directory location.
 
 ## Build Docker
 Then, you can check first if the repository showed on docker or not by using this command:
@@ -48,9 +43,22 @@ docker images
 
 Next, build the docker file by using command below:
 ```
-docker build -t pygame-docker
+docker build -t pygame-docker .
 ```
 
+## Execute docker container 
+Open the terminal on your PC, then make sure that the current directory is same as directory that you put this repository. To execute the container use command below:
+
+```
+docker run --rm -it -e DISPLAY=192.168.1.10:0.0 -v "/d/02-Project/pygame-docker":/usr/project pygame-docker /bin/bash
+```
+
+NOTES!!
+1. You can see that double quote on above, that can be different depend on your directory location.
+2. You has to change the DISPLAY IP Address to your own IP
+
+
+## Run the Game
 Finally, the game can be start using container builded using this command:
 ```
 python main.py
