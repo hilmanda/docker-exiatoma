@@ -2,6 +2,7 @@
 
 # D:\01-Kuliah\ASPRAK\PKS 2\TPB 27\Minggu 12\tesgit\src\game.py: 2
 opencv_python == 4.5.5.64
+numpy
 
 # D:\01-Kuliah\ASPRAK\PKS 2\TPB 27\Minggu 12\tesgit\src\game.py: 1
 # D:\01-Kuliah\ASPRAK\PKS 2\TPB 27\Minggu 12\tesgit\src\menu.py: 1
