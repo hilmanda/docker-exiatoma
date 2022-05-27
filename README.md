@@ -23,10 +23,7 @@ Are you ready for this game? Let's complete the level and prove your skills!
 Clone this repository or download [here](https://github.com/hilmanda/docker-exiatoma/archive/refs/heads/main.zip). 
 
 ## Dependencies
-Install x server (recommended from VcXsrv) using choco
-```
-choco install vcxsrv
-```
+Download and Install x server (recommended VcXsrv) from [here](https://sourceforge.net/projects/vcxsrv/files/latest/download).
 
 Launch the x server from start menu.
 
@@ -36,14 +33,15 @@ Go with all the default settings, however don't forget to check “Disable acces
 </div>
 
 ## Build Docker
-Then, you can check first if the repository showed on docker or not by using this command:
-```
-docker images
-```
 
-Next, build the docker file by using command below:
+Build the docker file by using command below:
 ```
 docker build -t pygame-docker .
+```
+
+Then, you can check if the repository showed on docker or not by using this command:
+```
+docker images
 ```
 
 ## Execute docker container 
