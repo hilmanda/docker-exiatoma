@@ -3,7 +3,6 @@ import pygame_widgets
 from pygame_widgets.slider import Slider
 from src.music import *
 
-
 class Menu():
     def __init__(self, game):
         self.GREEN = (0,128,0)
@@ -46,7 +45,6 @@ class MainMenu(Menu):
             self.draw_cursor(self.state)
             self.blit_screen()
         self.game.clear_text()
-
 
     def move_cursor(self):
         if self.game.DOWN_KEY:
@@ -114,7 +112,6 @@ class DifficultyMenu(Menu):
             self.blit_screen()
         self.game.clear_text()
 
-
     def move_cursor(self):
         if self.game.DOWN_KEY:
             if self.difficulty_state == 'Easy':
@@ -150,8 +147,6 @@ class DifficultyMenu(Menu):
             self.game.curr_menu = self.game.main_menu
             self.run_display = False
             
-
-
 class VolumeMenu(Menu):
     def __init__(self, game):
         Menu.__init__(self, game)
@@ -173,7 +168,6 @@ class VolumeMenu(Menu):
 
         pygame_widgets.update(events)
         
-
     def display_menu(self):
         self.run_display = True
         while self.run_display:
