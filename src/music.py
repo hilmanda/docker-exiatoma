@@ -1,6 +1,4 @@
 import pygame
-# import os
-# os.environ['SDL_AUDIODRIVER'] = 'waveout'
 
 class Music:
 
