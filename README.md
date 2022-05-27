@@ -23,13 +23,13 @@ Are you ready for this game? Let's complete the level and prove your skills!
 Clone this repository or download [here](https://github.com/hilmanda/docker-exiatoma/archive/refs/heads/main.zip). 
 
 ## Dependencies
-Download and Install x server (recommended VcXsrv) from [here](https://sourceforge.net/projects/vcxsrv/files/latest/download).
+1. Download and Install x server (recommended VcXsrv) from [here](https://sourceforge.net/projects/vcxsrv/files/latest/download).
 
-Launch the X Server from start menu.
+2. Launch the X Server from start menu.
 <div align="center">
   <img src="https://user-images.githubusercontent.com/90018036/170707241-cb5753d5-302f-4c7e-be0b-fb24658d5bd5.png">
 </div>
-Go with all the default settings, however don't forget to check “Disable access control”.
+3. Go with all the default settings, however don't forget to check “Disable access control”.
 <div align="center">
   <img src="https://miro.medium.com/max/1400/1*ihco-ShEHQtbwHBGmtIOZg.png">
 </div>
