@@ -1,6 +1,7 @@
 <div align="center">
 
-# DOCKER MEMORY-GAME
+# MEMORY-GAME
+> Containerize PyGame with Docker.
   
   <a href="https://www.pygame.org/"><img alt="PyGame" src ="https://camo.githubusercontent.com/1971c0a4f776fb5351c765c37e59630c83cabd52/68747470733a2f2f7777772e707967616d652e6f72672f696d616765732f6c6f676f2e706e67" width = 180 height = 100></a>
 </div>
@@ -69,3 +70,6 @@ Alternative command:
 python3 main.py
 python3 -m main.py
 ```
+
+# DEMO CONTAINER VIDEO
+[![HERE THE TUTORIAL](http://i3.ytimg.com/vi/38uOm7qAVD8/hqdefault.jpg)](https://youtu.be/38uOm7qAVD8)
