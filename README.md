@@ -29,7 +29,9 @@ choco install vcxsrv
 ```
 
 Launch the x server from start menu.
-
+<div align="center">
+  <img src="https://miro.medium.com/max/1400/1*ihco-ShEHQtbwHBGmtIOZg.png">
+</div>
 ## Execute docker container 
 Open the terminal on your PC, then make sure that the current directory is same as directory that you put this repository. To execute the container use command below:
 ```
